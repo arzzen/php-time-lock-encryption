@@ -72,11 +72,12 @@ class TimeLockCrypt
 	 *
 	 * @access public
 	 * @param string $encrypted 
+	 * @param integer $iterations
 	 * @return string
 	 */
-	public function decrypt($encrypted)
+	public function decrypt($encrypted, $iterations)
 	{
-		$key = $this->generateByIterations($this->keyseed, $this->iterations);
+		$key = $this->generateByIterations($this->keyseed, $iterations);
 		$fernet = new Fernet($key);
 
 		return $fernet->decode($encrypted);

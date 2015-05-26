@@ -20,7 +20,9 @@ $timeLock = new TimeLockCrypt('');
 
 $message = 'secret message';
 $encrypted = $timeLock->encrypt('+10 second', $message);
-$decrypted = $timeLock->decrypt($encrypted);
+$iterations = $timeLock->getIterations();
+
+$decrypted = $timeLock->decrypt($encrypted, $iterations);
 
 var_dump($message == $decrypted);
 ?>

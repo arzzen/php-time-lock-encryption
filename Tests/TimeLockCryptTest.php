@@ -31,7 +31,7 @@ class TimeLockCryptTest extends PHPUnit_Framework_TestCase
         $message = 'secret message';
     	$encrypted = $timeLock->encrypt('+1 second', $message);
 
-        $this->assertEquals($message, $timeLock->decrypt($encrypted));
+        $this->assertEquals($message, $timeLock->decrypt($encrypted, $timeLock->getIterations()));
     }
 
     /**
