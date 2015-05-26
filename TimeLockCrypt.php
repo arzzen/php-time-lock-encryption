@@ -88,10 +88,10 @@ class TimeLockCrypt
 	 * @access public
 	 * @return integer
 	 */
-    public function getIterations()
-    {
-        return $this->iterations;
-    }
+	public function getIterations()
+	{
+	    return $this->iterations;
+	}
 
 	/**
 	 * Generate key by iterations

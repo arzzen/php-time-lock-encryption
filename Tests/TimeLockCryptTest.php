@@ -24,9 +24,9 @@ class TimeLockCryptTest extends PHPUnit_Framework_TestCase
      * 
      * @access public
      */
-	public function testMessage()
+    public function testMessage()
     {
-        $timeLock = new TimeLockCrypt('');
+        $timeLock = new TimeLockCrypt('123');
 
         $message = 'secret message';
     	$encrypted = $timeLock->encrypt('+1 second', $message);
