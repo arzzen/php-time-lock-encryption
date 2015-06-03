@@ -11,14 +11,14 @@ The class returns the encrypted data using the Fernet class with the generated k
 It can also decrypt previously encrypted data by regenerating the encryption key the same number of iterations that it were used to generate the key when the data was encrypted.
 
 
-## Requirements
+### Requirements
 
 * PHP 5.3.3 or later
 * hash extension
 * openssl or mcrypt extension
 
 
-## Usage
+### Usage
 
 ```php
 <?php
