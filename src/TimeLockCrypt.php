@@ -1,6 +1,6 @@
 <?php
 
-require "fernet-php/src/Fernet.php";
+namespace TimeLockCrypt;
 use Fernet\Fernet;
 
 /**

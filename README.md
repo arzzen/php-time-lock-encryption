@@ -18,13 +18,29 @@ It can also decrypt previously encrypted data by regenerating the encryption key
 * openssl or mcrypt extension
 
 
+## Installation
+
+You can install this library by using [Composer]. You can also view more info
+about this on [Packagist].
+
+Add this to the `require` section in your `composer.json` file.
+
+```json
+{
+    "require": {
+        "arzzen/php-time-lock-encryption": "1.1.*"
+    }
+}
+```
+
+
 ### Usage
 
 ```php
 <?php
-include "TimeLockCrypt.php";
+use TimeLockCrypt;
 
-$timeLock = new TimeLockCrypt('');
+$timeLock = new TimeLockCrypt('keyseed');
 
 $message = 'secret message';
 $encrypted = $timeLock->encrypt('+10 second', $message);

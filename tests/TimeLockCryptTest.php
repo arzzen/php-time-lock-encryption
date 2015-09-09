@@ -1,5 +1,7 @@
 <?php
 
+use \TimeLockCrypt\TimeLockCrypt;
+
 class TimeLockCryptTest extends PHPUnit_Framework_TestCase
 {
 
