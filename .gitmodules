@@ -1,3 +1,0 @@
-[submodule "fernet-php"]
-	path = fernet-php
-	url = https://github.com/kelvinmo/fernet-php
