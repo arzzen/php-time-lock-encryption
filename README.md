@@ -1,4 +1,4 @@
-# Time Lock Encryption Class [![Build Status](https://travis-ci.org/arzzen/php-time-lock-encryption.svg)](https://travis-ci.org/arzzen/php-time-lock-encryption)
+# Time Lock Encryption Class [![Build Status](https://travis-ci.org/arzzen/php-time-lock-encryption.svg)](https://travis-ci.org/arzzen/php-time-lock-encryption) [![Latest Stable Version](https://poser.pugx.org/arzzen/php-time-lock-encryption/version)](https://packagist.org/packages/arzzen/php-time-lock-encryption) [![License](https://poser.pugx.org/arzzen/php-time-lock-encryption/license)](https://packagist.org/packages/arzzen/php-time-lock-encryption)
 
 Implementation of timed-release crypto.
 
