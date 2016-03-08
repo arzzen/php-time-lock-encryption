@@ -7,11 +7,11 @@ use Fernet\Fernet;
  * Time Lock Encryption Class
  *
  * @author Lukas Mestan
- * @copyright GPL v2
+ * @copyright MIT
  * @see http://www.gwern.net/Self-decrypting files
  * @see http://people.csail.mit.edu/rivest/lcs35-puzzle-description.txt
  * @see https://github.com/kelvinmo/fernet-php 
- * @version 1.0.0
+ * @version 1.1.0
  */
 class TimeLockCrypt
 {
